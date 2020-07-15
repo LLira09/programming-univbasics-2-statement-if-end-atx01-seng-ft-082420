@@ -6,7 +6,7 @@ run_code_inside = false
 # end
 # puts "Code after if..end"
 
-chance_of_rain = 0.2
+chance_of_rain = 0.3
 # puts "Lets go outside!"
 # if chace_of_rain > 0.5
 #   puts "Pack an umbrella!"
