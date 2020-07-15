@@ -27,13 +27,17 @@ chance_of_rain = 0.9
 # this_year = 2019
 # puts "Hey, it's not 2019" unless this_year == 2019
 
-current_time = Time.now
-current_time = current_time.to_i
-if current_time % 2 == 0
+# current_time = Time.now
+# current_time = current_time.to_i
+# if current_time % 2 == 0
+#   puts "Even!"
+# else
+#   puts "Odd!"
+# end
+
+if Time.now.to_i % 2 == 0
   puts "Even!"
 else
   puts "Odd!"
 end
-
-
 
