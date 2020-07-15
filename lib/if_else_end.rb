@@ -5,3 +5,12 @@ run_code_inside = false
 #   puts "Code inside"
 # end
 # puts "Code after if..end"
+
+chace_of_rain = 0.2
+puts "Lets go outside!"
+if chace_of_rain > 0.5
+  puts "Pack an umbrella!"
+else
+  puts "Enjoy the fine day!"
+end
+puts "Oh, and always wear sunscreen!"
