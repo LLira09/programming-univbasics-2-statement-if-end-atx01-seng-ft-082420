@@ -6,7 +6,7 @@ run_code_inside = false
 # end
 # puts "Code after if..end"
 
-chace_of_rain = 0.000001
+chance_of_rain = 0.000001
 # puts "Lets go outside!"
 # if chace_of_rain > 0.5
 #   puts "Pack an umbrella!"
@@ -15,9 +15,9 @@ chace_of_rain = 0.000001
 # end
 # puts "Oh, and always wear sunscreen!"
 
-if chace_of_rain <= 0.25
+if chance_of_rain <= 0.25
   puts "Pack a sun shelter!"
-elsif (chace_of_rain > 0.25 && chace_of_rain < 0.75)
+elsif (chance_of_rain > 0.25 && chance_of_rain < 0.75)
   puts "Pack an umbrella!"
 else
   puts "Stay home and read Hegel".
